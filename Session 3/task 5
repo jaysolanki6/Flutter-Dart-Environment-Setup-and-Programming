@@ -1,0 +1,21 @@
+## Troubleshooting Flutter Device Connection Using AI
+
+### Error Message
+When I tried to run my Flutter application, my Android device was not detected.
+
+```text
+No supported devices connected.
+```
+
+### AI Suggested Steps
+1. Check the USB cable connection.
+2. Enable USB Debugging on the Android device.
+3. Select File Transfer mode.
+4. Allow the USB Debugging permission.
+5. Run `flutter devices` to verify the connection.
+
+### Solution
+I reconnected my Android phone using a USB cable and enabled USB Debugging. After allowing the debugging permission, I ran `flutter devices` and my device was detected successfully.
+
+### What Worked for Me
+Enabling USB Debugging and reconnecting the USB cable solved my connection issue. After that, the `flutter run` command successfully launched my application on the physical device.
